@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photo Enhancer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📸 Photo Enhancer Tool</h1>
+
+    <input type="file" id="upload" accept="image/*" />
+    <canvas id="canvas"></canvas>
+
+    <div class="controls">
+      <label>Brightness: <input type="range" id="brightness" min="0" max="200" value="100" /></label>
+      <label>Contrast: <input type="range" id="contrast" min="0" max="200" value="100" /></label>
+      <label>Saturation: <input type="range" id="saturate" min="0" max="200" value="100" /></label>
+      <label>Blur: <input type="range" id="blur" min="0" max="10" value="0" /></label>
+    </div>
+
+    <div class="buttons">
+      <button id="reset">Reset</button>
+      <button id="download">Download</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
