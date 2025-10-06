@@ -28,4 +28,4 @@ Upload an image, adjust brightness, contrast, or blur, and download the enhanced
 ## 🚀 Live Demo
 👉 [Photo Enhancer](https://xyzvikram.github.io/photo-enhancer/)
 
----
+-
