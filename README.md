@@ -23,7 +23,7 @@ Upload an image, adjust brightness, contrast, or blur, and download the enhanced
 ## Screenshot
 ![Photo Enhancer Screenshot] (screenshot.png)
 
----4
+---
 
 ## 🚀 Live Demo
 👉 [Photo Enhancer](https://xyzvikram.github.io/photo-enhancer/)
